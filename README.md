@@ -7,14 +7,22 @@ Responsive website design project for **RastaWood**, a company focused on modern
 ## Screenshots
 
 ### Home
-[![Home Thumbnail](screenshots/thumbnail-home.png)](https://raw.githubusercontent.com/arsaland/Rastawood-Website/main/screenshots/home.png)
+<a href="https://raw.githubusercontent.com/arsaland/Rastawood-Website/main/screenshots/home.png" target="_blank">
+  <img src="screenshots/thumbnail-home.png" alt="Home Thumbnail">
+</a>
 
 ### Products
-[![Products Thumbnail](screenshots/thumbnail-products.png)](https://raw.githubusercontent.com/arsaland/Rastawood-Website/main/screenshots/products.png)
+<a href="https://raw.githubusercontent.com/arsaland/Rastawood-Website/main/screenshots/products.png" target="_blank">
+  <img src="screenshots/thumbnail-products.png" alt="Products Thumbnail">
+</a>
 
 ### News
-[![News Thumbnail](screenshots/thumbnail-news.png)](https://raw.githubusercontent.com/arsaland/Rastawood-Website/main/screenshots/news.png)
+<a href="https://raw.githubusercontent.com/arsaland/Rastawood-Website/main/screenshots/news.png" target="_blank">
+  <img src="screenshots/thumbnail-news.png" alt="News Thumbnail">
+</a>
 
 ### About
-[![About Thumbnail](screenshots/thumbnail-about.png)](https://raw.githubusercontent.com/arsaland/Rastawood-Website/main/screenshots/about.png)
+<a href="https://raw.githubusercontent.com/arsaland/Rastawood-Website/main/screenshots/about.png" target="_blank">
+  <img src="screenshots/thumbnail-about.png" alt="About Thumbnail">
+</a>
 
