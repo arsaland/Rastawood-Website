@@ -1,0 +1,126 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-next {
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 3px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8px 0 8px 13px;
+	border-color: transparent transparent transparent #d90909;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+.owl-prev {
+	color: #eee;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 3px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8px 13px 8px 0;
+	border-color: transparent #d90909 transparent transparent;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+
+	margin: 5px 3px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	border-color: transparent transparent red;
+    border-style: solid;
+    border-width: 0 5.5px 9px;
+    display: block;
+    height: 0;
+    text-indent: -9999px;
+    width: 0;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+
+	}
+
+
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+
+.owl-buttons {
+	display:none;
+}
+
+@media only screen and (max-width:770px) {
+
+ .owl-theme .owl-controls .owl-page span {
+  margin: 5px 2px;
+ }
+
+
+ }
+
+
+@media only screen and (min-width:235px) and (max-width:496px) {	
+
+
+ .owl-pagination {
+
+
+	display:none;
+}
+.owl-buttons{
+	display:block;
+	margin-left: 2.1em;
+}
+
+
+}

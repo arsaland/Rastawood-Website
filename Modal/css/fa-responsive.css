@@ -1,0 +1,68 @@
+
+
+
+
+
+
+@media only screen and (min-width:640px) and (max-width:700px) { /* in media query jadide kollan oon tah mahaa bezaresh. ino be dalile masaa'ele zibayi ina majboor shodam ezafe konam*/
+
+.modal {
+	width:600px;
+
+}
+
+.modal-content {
+	padding: 260px 22px 0;
+	width: 256px;
+}
+
+.modal-content h1 {
+  font-size: 1.23em;
+  margin-bottom: 8px;
+}
+.modal-content p {
+  font-size: 0.68em;
+  line-height: 1.6em;
+}
+
+
+}
+
+
+@media only screen and (min-width:235px) and (max-width:639px) { 	/*  in media query ghablan boodesh.. inaro faghat bezar laa ghablie **/
+
+
+.modal {
+	width: 285px;
+  	height: 590px;
+}
+
+.close {
+  font-size: 20px;
+  right: 2px;
+  top: -3px;
+
+}
+
+.modal-content { 
+	float:none;
+	width: 235px;
+	padding: 0 25px 0;
+
+}
+
+.modal-content h1 {
+  font-size: 1em;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+.modal-content p {
+  font-size: 0.52em;
+  line-height: 1.6em;
+
+}
+
+
+
+}

@@ -1,0 +1,479 @@
+* {margin: 0; padding: 0}
+ul,ol {list-style: none;}
+
+@font-face {
+    font-family: 'BYekan';
+	src: url('../fonts/BYekan.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+	src: url('../fonts/Lato-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tex';
+	src: url('../fonts/texgyreadventor-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body, p
+{
+	font-family: 'LatoRegular';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+.slidertextbox p {
+	font-family: 'LatoRegular';
+	font-size:1em;
+
+}
+
+.page {
+	width: 95%;
+	margin: 0 auto;	
+}
+
+/* hidden */
+.introwrap {
+	width: 80%;
+	margin:5em auto;
+	height: 500px; 
+	display:block; 
+	position:relative; 
+}
+						
+.intrologo {
+	display:block; 
+	position:relative;
+	margin:auto;
+	width:700px;
+}
+
+.intrologo img {
+	margin: auto;
+	display: block;
+	position: relative;
+	width:700px;
+	opacity:0;
+	-moz-transition: opacity 2s; /* Firefox 4 */
+	-webkit-transition: opacity 2s; /* Safari and Chrome */
+	-o-transition: opacity 2s;
+	transition: opacity 2s;
+}
+
+.introwrap {
+	display:none;
+
+}
+/* hidden */
+
+/*																						 *********************************************  Header Eng - BEGIN ***************************************** **/
+																				
+																				
+nav {
+	font-size:1.3em;
+	width:100%;
+	margin: 0.6em 1em 0 -0.8em;
+}
+
+
+a:link , a:visited {
+	text-decoration : none ;
+
+}
+a {
+   outline: 0;
+   color:#000;
+}
+
+nav ul {
+		height: 3.5em;
+}
+
+nav ul li {
+
+	display:inline;
+	position:relative;
+	float: right;
+}
+
+
+nav ul li a {
+	display:block;
+	text-align:center;
+	
+}
+
+.seperator {
+	position:absolute;
+	right:0;
+	height:0.7em;
+	border-right:2px solid red;
+	background-color: red;
+	top:0.7em;
+}
+
+.seperatorlast {
+	position: absolute;
+	height:0.7em;
+	border-right:2px solid red;
+	background-color: red;
+	margin-right: 1.25em;
+	top:0.7em;
+	left: 0;
+}
+
+/*																						  *********************************************  Header  Eng - END *****************************************  */
+
+
+
+/* 																						******************************************  FLEX SLIDER - BEGIN ****************************************** */
+
+.slidertextbox {
+	direction:ltr;
+	width:40%;
+	text-align:left;
+	font-size:0.9em;
+	line-height: 1.2em;
+	position: absolute;
+    left: 0;
+	bottom:0;
+	text-align:justify;
+	
+}
+
+.slides li{
+	position: relative;
+
+}
+/* 																						******************************************  FLEX SLIDER - END ****************************************** */
+
+
+
+
+
+/* 																						****************************************************** Product Page - BEGIN ************************************** */
+
+
+.box {
+	width:50.1%;
+	float:right;
+}
+
+.god {
+	margin-top:1em;
+	width:100%;
+}
+
+.sidemenu {
+	font-family: 'LatoRegular';
+	font-size: 1.3em;
+	font-weight: bold;
+    direction: ltr;
+    display: block;
+    float: right;
+    margin-top: 7em;
+    position: absolute;
+    left: 2.5%;
+}
+
+
+.sidemenu li {
+	margin-bottom: 0.4em;
+
+}
+
+.sidetextbox {
+    margin-bottom: 9em;
+    margin-top: 15em;
+    position: absolute;
+    left: 2.5%;
+    width: 39%;
+}
+
+.sidetext {
+	font-size: 0.8em;
+	direction:ltr;
+	text-align:justify;
+	line-height: 1.5em;
+
+}
+
+aside p {
+	font-size: 0.8em;
+	direction: rtl;
+	width: 45%;
+
+
+}
+
+.productbox {
+    display: block;
+    height: 260px;
+    margin-bottom: 1.5em;
+    position: relative;
+}
+
+.productthumb {
+    margin: 2% 0 8% 15%;
+}
+
+.productbox h1 {
+    direction: ltr;
+	font-family: "latoregular";
+    font-size: 0.7em;
+	margin-bottom: 1.9em;
+    margin-top: -0.5em;
+    text-align: center;
+	font-weight: normal;
+}
+.productbox h2 {
+	display:block;
+	font-size:0.7em;
+	direction:rtl;
+	text-align:center;
+	color: #5C5C5C;
+}
+
+.plus{
+    margin-bottom: 4%;
+    vertical-align: middle;
+    width: 22px;
+}
+
+.other {
+    float: left;
+    margin-top: 28em;
+    width: 20%;
+}
+
+.other img {
+	width:65%;
+	display:block;
+	position: relative;
+	float: left;
+}
+
+
+.other ul li {
+	float: left;
+	width:33.333%;
+}
+
+.other h1 {
+	font-size: 1em;
+	font-weight: normal;
+	text-align: left;
+	margin-bottom: 1.3em;
+}
+
+.addtocart {
+    width: 40%;
+}
+
+/*																						 ****************************************************** Product Page ENG - END ****************************************** */
+
+/*																						 ****************************************************** Footer ENG - BEGIN ****************************************** */
+
+.footer {
+    margin-top: 1.5em;
+}
+
+
+.redline {
+	width:40.5%;
+	height:1px;
+	background-color:red;
+	float:right;
+	
+}
+.logo {
+	border-top: 1px solid red;
+    float: left;
+    position: relative;
+    width: 40.5%;
+	clear:both;
+}
+.logo img 
+{
+	float: left;
+    margin: 1.2em 0 0 2.4em;
+    width: 40%;
+}
+
+.footer-info ul li{
+	display :inline;
+	float: left;
+	position: relative;
+}
+.footer-info ul li a{
+	text-align:center;
+	display:block;
+}
+.footer-info ul li a img {
+	display: block;
+    position: relative;
+	margin: auto;
+
+}
+.footer-info {
+    float: right;
+    margin-right: 3em;
+    margin-top: 4.5em;
+    position: relative;
+    width: 29%;
+}
+
+.tw {
+    right: 1em;
+    top: 0.2em;
+}
+
+.fb {
+    bottom: 1.2em;
+    left: 1em;
+}
+
+.footer-seperator {
+	position:absolute;
+	right:0;
+	height:0.7em;
+	border-right:2px solid red;
+	background-color: red;
+	top:0.7em;
+}
+
+.footer-seperatorlast {
+	position: absolute;
+	height:0.7em;
+	border-right:2px solid red;
+	background-color: red;
+	margin-right: 1.25em;
+	top:0.7em;
+	left: 0;
+}
+
+.home {
+width: 60%;
+}
+
+.terms {
+width: 80%;
+}
+
+.partners {
+width: 76%;
+}
+
+/*																						 ****************************************************** Footer ENG - END ****************************************** */
+
+
+/* 																						****************************************************** Modal - BEGIN ****************************************** */
+  .close {
+  font-size: 16px;
+  font-family: 'tahoma';
+  position: absolute;
+  z-index: 1000;
+  font-weight: bold;
+  padding: 0 0 25px 25px;
+  right: 2px;
+  opacity: 0.4;
+  color: #e30713;
+  top: -1px;
+}
+
+.close:hover {
+	opacity: 1;
+}
+
+.modal {
+	position: relative;
+	display:block;
+	width:700px;
+	height:462px;
+	background-color:white;
+	margin:5em auto;
+
+}
+
+.modal h2 {
+	display:block;
+	position:absolute;
+	bottom:5%;
+	left:4%;
+	font-size:1em;
+	direction:rtl;
+	text-align:center;
+	color: #000;
+	font-weight: normal;
+}
+
+.modal-content {
+	position: relative;
+ 	float: right;
+  	width: 296px;
+	padding: 260px 52px 0;
+}
+
+.modal-content h1 {
+	font-family: 'Tex';
+	font-size: 1.3em;
+	margin-bottom:10px;
+	font-weight: normal;
+	text-align: left;
+}
+
+.modal-content p {
+	font-size: 0.73em;
+	font-family: 'LatoRegular';
+	text-align: justify;
+	line-height: 1.7em;
+	direction: ltr;
+	color:rgb(50, 50, 50);
+}
+
+
+.modal-content div {
+	margin-bottom: 3%;
+	width:95%;
+	font-size: 0.8em;
+}
+
+
+.colorbox {
+	display: inline-block;
+	margin-right:8px ;
+}
+
+.colorbox li {
+	float:right;
+	margin-left: 5px;
+}
+
+.colorbox li div {
+	display: block;
+	width:16px;
+	height:16px;
+	margin-bottom: -4px;
+}
+
+.label {
+	font-weight: bold;
+
+
+}
+.price {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-right: 5px;	
+}
+

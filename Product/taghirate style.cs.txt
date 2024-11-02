@@ -1,0 +1,27 @@
+khatte 4 en-stle,style :
+
+
+a {
+
+	color:#000;
+	ezafe she
+}
+
+
+
+
+------------------
+
+
+
+khatte 77  en-sytle :
+khatte 67  sytle  :
+
+
+.page {
+	
+	overflow:hidden;
+	ezafe she
+}
+
+
